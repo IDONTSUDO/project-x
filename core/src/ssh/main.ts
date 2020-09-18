@@ -10,7 +10,7 @@ declare type ConfigSSH = {
   port: String
 }
 /**@problem  Общая работа с SSH.
- * @class SSH_include 
+ * @class SSH_include
  * @method ssh_get() получение SSH соеденения.
  */
 export class SSH_include {
