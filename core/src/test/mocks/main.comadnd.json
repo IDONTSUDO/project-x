@@ -1,0 +1,4 @@
+{
+    "comand":"c",
+    "row":[{"n":"email","t":"u"},{"n":"password","t":"s(40)"},{"n":"age","t":"n(40)"}]
+}

@@ -1,3 +1,7 @@
+## All types dialog
+
+~~~javascript
+
 const testDialog = {
     c:"CREATE",
     u:"UPDATE",
@@ -14,3 +18,5 @@ const testDialog = {
     s(40) - VARCHAR(40)
     num - NUMBER 
 */
+~~~
+
