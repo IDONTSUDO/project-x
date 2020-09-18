@@ -9,14 +9,12 @@ const app = uWS.App().ws('/*', {
     ws.subscribe('broadcast');
   },
   message: (ws, message, isBinary) => {
-
     ws.publish('broadcast', message, isBinary);
   },
   drain: (ws) => {
 
   },
   close: (ws, code, message) => {
-
 
   }
 }).any('/*', (res, req) => {
